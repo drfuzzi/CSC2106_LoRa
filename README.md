@@ -6,7 +6,7 @@
 
 ## Equipment
 - Computer / Laptop
-- Arduino Uno
+- Maker Uno
 - Cytron LoRa-RFM Shield
 
 ## Introduction
@@ -15,7 +15,10 @@ LoRa (Long Range) is an RF modulation technique designed for low-powered wireles
 ## Exercise 1: LoRa Peer-to-Peer Communication
 In this exercise, we will use Maker UNO and Cytron LoRa-RFM Shield to build a LoRa-based end node for data exchange in a peer-to-peer setup. We'll create a transmitter node broadcasting LoRa payloads and a receiver node to display this data on a serial monitor.
 
-Ensure that the Arduino UNO is connected to the LoRa Shield, as shown below.
+Ensure that the Maker UNO is connected to the Cytron LoRa-RFM Shield, as shown below.
+
+![image](https://github.com/drfuzzi/CSC2106_LoRa/assets/108112390/f055a011-a423-4d66-b4d8-301729773361)
+
 ![image](https://github.com/drfuzzi/CSC2106_LoRa/assets/108112390/37535a86-b00b-4470-b5b9-013846fc0806)
 
 ### Setup
