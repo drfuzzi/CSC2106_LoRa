@@ -47,7 +47,7 @@ Ensure that the Maker UNO is connected to the Cytron LoRa-RFM Shield, as shown b
      - "Sending Message"
      - "Waiting for Reply"
      - “Message Received”
-   - Refer to “ssd1306_i2c.ino” for OLED display implementation. Install the “Adafruit SSD1306” library first.
+   - Refer to [`ssd1306_i2c.ino`](ssd1306_i2c.ino) for OLED display implementation. Install the “Adafruit SSD1306” library first.
 
 2. **Enhance Peer-to-Peer Reliability**
    - Implement features to prevent crosstalk traffic interference, e.g., ACK and retransmit.
