@@ -35,7 +35,9 @@ Ensure that the Maker UNO is connected to the Cytron LoRa-RFM Shield, as shown b
 
 3. **Operation**
    - Start the Transmitter Node and open the Serial Monitor to observe the output.
-   - On the Receiver Node, open the Serial Monitor and set to 9600 baud to see the incoming data.
+   - On the Receiver Node, open the Serial Monitor and set to 9600 baud to see the incoming data (as shown below).
+
+![image](https://github.com/drfuzzi/CSC2106_LoRa/assets/108112390/1d683107-f2d1-4ac8-aded-52bd0db42ecb)
 
 ## Lab Assignment
 1. **OLED Display Integration**
@@ -45,13 +47,13 @@ Ensure that the Maker UNO is connected to the Cytron LoRa-RFM Shield, as shown b
      - "Sending Message"
      - "Waiting for Reply"
      - “Message Received”
-   - Refer to “Lab 3 - ssd1306_i2c.ino” for OLED display implementation. Install the “Adafruit SSD1306” library first.
+   - Refer to “ssd1306_i2c.ino” for OLED display implementation. Install the “Adafruit SSD1306” library first.
 
 2. **Enhance Peer-to-Peer Reliability**
    - Implement features to prevent crosstalk traffic interference, e.g., ACK and retransmit.
 
 3. **Improve Message Protocol**
-   - Develop ID-based messaging with a header, payload, and checksum supporting at least three devices. Include simple message filtering based on the node's ID.
+   - Develop ID-based messaging with a header, payload, and checksum supporting at least three devices, i.e. simple message filtering, only accepting messages that are directed to the node's agreed ID.
 
 ## References
 1. [SemTech's LoRa Technology Overview](https://www.semtech.com/lora/what-is-lora)
